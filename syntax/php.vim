@@ -1996,7 +1996,7 @@ syn keyword	phpObjectOperator contained new
 syn keyword	phpObjectOperator contained clone
 
 " Todo
-syn keyword	phpTodo	contained todo fixme xxx containedin=phpComment
+syn keyword	phpTodo	contained todo fixme xxx note debug notice containedin=phpComment
 
 " Parent
 if s:strict_blocks
